@@ -7,10 +7,9 @@ The original script was written by [Dan](https://github.com/dancwilliams/wordpre
 - Python 3
 - `xmltodict` (`pip install xmltodict`)
 
-### Run
+### Run Instructions
 
 - Rename your wordpress xml dump file to `big_data.xml` and put it in the same folder as this script. 
-- Create a `comments` folder in the same folder as this script.
 - Run `python wordpress_to_staticman.py`
 
 In the end just copy the `comments` folder to the `data` folder in the base directory of your Hugo source files. 
